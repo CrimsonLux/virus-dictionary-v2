@@ -40,12 +40,15 @@ session_start();
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
+                    <li><a class="nav-link" href="about.php">About</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Viruses <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="Malware.php">Malware</a></li>
                             <li><a href="Trojan.php">Trojan</a></li>
                             <li><a href="BootSector.php"> Boot Sector</a></li>
+                            <li><a href="Scareware.php">Scareware</a></li>
+                            <li><a href="Botnet.php">Botnet</a></li>
+                            
                         </ul>
                     </li>
                 </ul>

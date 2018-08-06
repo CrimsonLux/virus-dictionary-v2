@@ -20,46 +20,32 @@ include_once 'header.php'
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-preview">
-                <a href="Malware.php">
+                <a href="Botnet.php">
                     <h2 class="post-title">
-                        Malware Virus
+                        Botnets
                     </h2>
                     <h3 class="post-subtitle">
-                        Did you know that Malware actually means "Malicious Software"?
+                        A drive-by bot infection that will enlist your computer as an agent in a fraudster's arsenal. 
                     </h3>
                 </a>
                 <p class="post-meta">Posted by
                     <a href="index.php">Virus Dictionary</a>
                 </p>
             </div>
-            <hr>
             <div class="post-preview">
-                <a href="Trojan.php">
+                <a href="Scareware.php">
                     <h2 class="post-title">
-                        Trojan Horse
+                        Scareware
                     </h2>
                     <h3 class="post-subtitle">
-                        A malware disguised as a legitimate software.
+                       Fake antivirus programs, which are often referred to as "scareware," most irritating leg of the malware stool. 
                     </h3>
                 </a>
                 <p class="post-meta">Posted by
                     <a href="index.php">Virus Dictionary</a>
                 </p>
             </div>
-            <hr>
-            <div class="post-preview">
-                <a href="BootSector.php">
-                    <h2 class="post-title">
-                        Boot Sector Virus
-                    </h2>
-                    <h3 class="post-subtitle">
-                        What is a boot sector virus?
-                    </h3>
-                </a>
-                <p class="post-meta">Posted by
-                    <a href="index.php">Virus Dictionary</a>
-                </p>
-            </div>
+            
             <hr>
             <!-- Pager -->
             <div class="clearfix">

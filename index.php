@@ -16,6 +16,20 @@ include_once 'header.php'
     </div>
 </header>
 
+<!--Search Bar -->
+<div class="container">
+<div class="row">
+                <div class="col-md-10">
+                    <form class="form-horizontal" action="http://www.youtube.com/results" method="get" target="_blank">
+                        <div class="form-group">
+                            <input class="form-control pull-left" name="search_query" type="text" maxlength="128" placeholder="Search Youtube..." autocomplete="off"/>
+                        </div>
+                            <input class="btn pull-left" type="submit" value="Search" />
+                    </form> 
+                </div>
+            </div>
+</div>
+
 
 <!-- Main Content -->
 <div class="container">

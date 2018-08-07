@@ -49,7 +49,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         if(password_verify($password, $hashed_password)){
                             /* Password is correct, so start a new session and
                             save the username to the session */
-                            session_start();
+                            
                             $_SESSION['username'] = $username;      
                             header("location: index.php");
                         } else{

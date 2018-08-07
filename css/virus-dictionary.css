@@ -91,7 +91,7 @@ img::-moz-selection {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#mainNav .navbar-brand {
+/*#mainNav .navbar-brand {
     font-weight: 800;
     color:#d6d7d8;
 }
@@ -130,14 +130,14 @@ img::-moz-selection {
     #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
         color: rgba(255, 255, 255, 0.8);
     }
-}
+}*/
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
     #mainNav {
         -webkit-transition: background-color 0.2s;
         -moz-transition: background-color 0.2s;
         transition: background-color 0.2s;
-        /* Force Hardware Acceleration in WebKit */
+        /* Force Hardware Acceleration in WebKit      
         -webkit-transform: translate3d(0, 0, 0);
         -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
@@ -146,7 +146,7 @@ img::-moz-selection {
         -webkit-backface-visibility: hidden;
     }
     #mainNav.is-fixed {
-        /* when the user scrolls down, we hide the header right above the viewport */
+        /* when the user scrolls down, we hide the header right above the viewport 
         position: fixed;
         top: -67px;
         -webkit-transition: -webkit-transform 0.2s;
@@ -168,14 +168,14 @@ img::-moz-selection {
         color: #0085A1;
     }
     #mainNav.is-visible {
-        /* if the user changes the scrolling direction, we show the header */
+        /* if the user changes the scrolling direction, we show the header 
         -webkit-transform: translate3d(0, 100%, 0);
         -moz-transform: translate3d(0, 100%, 0);
         -ms-transform: translate3d(0, 100%, 0);
         -o-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
-}
+}*/
 
 header.masthead {
     margin-bottom: 50px;
